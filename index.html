@@ -4,35 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div>
-    <h1>Hobby Website</h1>
-    <main>
+   <div class="content-box">
+    <h1 class="text-4xl">Hobby Website</h1>
+    <main class="grid md:grid-cols-12">
+        <div class="box-border w-60 h-32 border-0 p-1 shadow-xl/30 md:col-span-4">
         <nav>
             <ul>
                 <li>
-                    <a href="#">Home Page</a>
+                    <a href="#" style="text-decoration: underline; text-decoration: double;"><u>Home Page</u></a>
                 </li>
                 <li>
-                    <a href="#">Digital Art</a>
+                    <a href="#">Digital/Traditional Art</a>
                 </li>
                 <li>
-                    <a href="#">Traditional Art</a>
+                    <a href="#">Hiking</a>
                 </li>
-        
+                <li>
+                    <a href="#">Reading</a>
+                </li>
             </ul>
         </nav>
-        <section>
+        </div>
+        <section class="md:col-span-8">
             <h2>Introduction</h2>
             <p>Paragraph about art/drawing/painting</p>
-            <h2>How art changed my life</h2>
-            <p>Paragraph about how art influenced my life</p>
+            <h2>A little bit about my hobbies</h2>
+            <p>Paragraph about hobbies</p>
             <h2>Benefits of Art</h2>
             <p>Why is art useful?</p>
+            <h2>Benefits of Hiking</h2>
+            <p>Why is it good for us?</p>
+            <h2>Benefits of reading</h2>
+            <p>Why is it good for us?</p>
         </section>
-        <blockquote>"A quote about art"</blockquote>
     </main>
+    <blockquote>"A quote about art"</blockquote>
    </div> 
    <footer>
     <p>&copy; 2025 Hobby Website. All rights reserved.</p>
