@@ -2,21 +2,21 @@ html, body {
     height: 100%;
     margin: 0px;
     font-family: 'Courier New', Courier, monospace;
-    background: linear-gradient(to bottom, rgb(171, 154, 154), rgb(82, 68, 68));
-    background-attachment: fixed;
 }
 
 .content-box {
     margin: 40px auto;
     padding: 10px;
-    background-color: rgb(171, 154, 154);
-    width: 90%;   
+    background-color: rgb(171, 154, 154, 0.8);
+    width: 90%;
 }
 
 h1
 {
     text-align: center;
     padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: fantasy;
 }
 
 blockquote {
