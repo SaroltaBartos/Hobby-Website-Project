@@ -2,10 +2,8 @@ html, body {
     height: 100%;
     margin: 0px;
     font-family: 'Courier New', Courier, monospace;
-}
-
-body {
     background: linear-gradient(to bottom, rgb(171, 154, 154), rgb(82, 68, 68));
+    background-attachment: fixed;
 }
 
 .content-box {
