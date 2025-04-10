@@ -7,11 +7,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-[url(https://i.ibb.co/m54rMgtx/jason-leung-UMnc-YEf-O9-U-unsplash.jpg)] bg-fixed bg-cover bg-center">
    <div class="content-box">
-    <h1 class="text-4xl">Hobby Website</h1>
+    <h1 class="text-4xl"><strong><u><a href="index.html">Hobby Website</a></u></strong></h1>
     <main class="grid md:grid-cols-12">
-        <div class="box-border w-60 h-32 border-0 p-1 shadow-xl/30 md:col-span-4">
+        <div class="box-border w-70 h-32 border-0 p-1 bg-amber-100/10 shadow-xl/30 md:col-span-4">
         <nav>
             <ul>
                 <li>
@@ -24,23 +24,39 @@
                     <a href="hiking.html">Hiking</a>
                 </li>
                 <li>
-                    <a href="reading.html"><u>Reading</u></a>
+                    <a href="reading.html"><u><strong>Reading</strong></u></a>
                 </li>
             </ul>
         </nav>
         </div>
-        <section class="md:col-span-8">
-            <h2>Introduction</h2>
-            <p>Paragraph about art/drawing/painting</p>
-            <h2>A little bit about my hobbies</h2>
-            <p>Paragraph about hobbies</p>
-            <h2>Benefits of Art</h2>
-            <p>Why is art useful?</p>
-            <h2>Benefits of Hiking</h2>
-            <p>Why is it good for us?</p>
-            <h2>Benefits of reading</h2>
-            <p>Why is it good for us?</p>
+        <section class="md:col-span-8 md:col-start-5">
+        <div class="flex flex-col justify-center md:col-span-8 md:col-start-5 p-10">
+            <h2 class="text-3xl text-center p-5"><strong>Reading</strong></h2>
+            <p>
+                I love reading because it lets me escape into different worlds and get lost in stories that spark my imagination. Through books, I can experience other lives, explore new perspectives, and learn things I might never encounter in real life. Whether it’s a quiet moment of comfort or an exciting adventure, reading always gives me something to hold onto.
+            </p>
+        </div>
+    
+        
+            <h3><strong>Some of my favourite books:</strong></h3>
+            <ul class="list-disc list-inside">
+                <li>Tress of the Emerald Sea</li>
+                <li>Yumi and the Nightmare Painter</li>
+                <li>The Empyrian Series</li>
+                <li>ACOTAR</li>
+                <li>The Prison Healer Trilogy</li>
+                <li>Atomic Habits</li>
+            </ul>
+
+            <form class="p-10">
+                <label for="book">What is your favourite book?</label>
+                <input type="text" id="book" name="book" class="bg-amber-100/20">
+                <button type="submit" class="bg-amber-100/20 cursor-pointer">Submit</button>
+              </form>
         </section>
+        
+        
+        
     </main>
    </div> 
    <footer>
