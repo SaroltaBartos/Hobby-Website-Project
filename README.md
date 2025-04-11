@@ -1,10 +1,9 @@
-# HobbyWebsite
+A simple hobby website built using HTML, CSS, and Tailwind CSS.
 
-A simple hobby website built using **HTML** and **CSS**.
-
-🚀 **Live Demo:**  
-The website is deployed on GitHub Pages and can be accessed here: [**Visit Website**](https://your-username.github.io/your-repo-name)  
-> _(Replace the link above with your actual GitHub Pages URL)_
+**Live Demo:**  
+The website is deployed on GitHub Pages and can be accessed here:  
+[**Visit Website**](https://saroltabartos.github.io/Hobby-Website-Project/index.html)  
+> _(Replace the link above if your GitHub Pages URL changes)_
 
 ---
 
@@ -13,4 +12,4 @@ The website is deployed on GitHub Pages and can be accessed here: [**Visit Websi
 To clone this repository, use the following command:
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/SaroltaBartos/Hobby-Website-Project.git
